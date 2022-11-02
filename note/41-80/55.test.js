@@ -34,10 +34,10 @@ function solution(A, B) {
 
 describe("solution", () => {
   test("1", () => {
-    expect(solution()).toEqual();
+    expect(solution("hello", "ohell")).toEqual(1);
   });
 
   test("2", () => {
-    expect(solution()).toEqual();
+    expect(solution("apple", "elppa")).toEqual(-1);
   });
 });

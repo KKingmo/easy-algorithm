@@ -43,10 +43,10 @@ function solution(denum1, num1, denum2, num2) {
 
 describe("solution", () => {
   test("1", () => {
-    expect(solution()).toEqual();
+    expect(solution(1, 2, 3, 4)).toEqual([5, 4]);
   });
 
   test("2", () => {
-    expect(solution()).toEqual();
+    expect(solution(9, 2, 1, 3)).toEqual([29, 6]);
   });
 });

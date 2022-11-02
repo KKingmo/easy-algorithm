@@ -37,10 +37,10 @@ function solution(balls, share) {
 
 describe("solution", () => {
   test("1", () => {
-    expect(solution(3, 2)).toEqual(3);
+    expect(solution(3, 2)).toEqual(BigInt(3));
   });
 
   test("2", () => {
-    expect(solution(5, 3)).toEqual(10);
+    expect(solution(5, 3)).toEqual(BigInt(10));
   });
 });
